@@ -1,4 +1,4 @@
-package main.java.com.someguyssoftware.treasure_wizardry_lootpack;
+package com.someguyssoftware.treasure_wizardry_lootpack;
 
 
 import org.apache.logging.log4j.LogManager;
@@ -9,8 +9,8 @@ import com.someguyssoftware.gottschcore.config.IConfig;
 import com.someguyssoftware.gottschcore.mod.AbstractMod;
 import com.someguyssoftware.gottschcore.mod.IMod;
 import com.someguyssoftware.gottschcore.version.BuildVersion;
-import com.someguyssoftware.treasure_mocreatures_lootpack.config.ModConfig;
-import com.someguyssoftware.treasure_mocreatures_lootpack.eventhandler.WorldEventHandler;
+import com.someguyssoftware.treasure_wizardry_lootpack.config.ModConfig;
+import com.someguyssoftware.treasure_wizardry_lootpack.eventhandler.WorldEventHandler;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;

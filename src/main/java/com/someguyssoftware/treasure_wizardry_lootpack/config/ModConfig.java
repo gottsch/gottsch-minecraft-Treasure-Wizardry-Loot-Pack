@@ -1,8 +1,7 @@
-package main.java.com.someguyssoftware.treasure_wizardry_lootpack;
-
+package com.someguyssoftware.treasure_wizardry_lootpack.config;
 
 import com.someguyssoftware.gottschcore.config.IConfig;
-import com.someguyssoftware.treasure_mocreatures_lootpack.TreasureMoCreaturesLP;
+import com.someguyssoftware.treasure_wizardry_lootpack.TreasureWizardryLP;
 
 import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.config.Config.Comment;

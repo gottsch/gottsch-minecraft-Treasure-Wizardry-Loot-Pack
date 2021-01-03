@@ -1,16 +1,11 @@
-package main.java.com.someguyssoftware.treasure_wizardry_lootpack.eventhandler;
+package com.someguyssoftware.treasure_wizardry_lootpack.eventhandler;
 
 import com.someguyssoftware.gottschcore.mod.IMod;
 import com.someguyssoftware.gottschcore.world.WorldInfo;
 import com.someguyssoftware.treasure2.Treasure;
 import com.someguyssoftware.treasure2.loot.TreasureLootTableRegistry;
-import com.someguyssoftware.treasure_mocreatures_lootpack.TreasureMoCreaturesLP;
 
 import net.minecraftforge.event.world.WorldEvent;
-import net.minecraftforge.fml.common.Loader;
-import net.minecraftforge.fml.common.event.FMLServerStartedEvent;
-import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
-import net.minecraftforge.fml.common.event.FMLServerStoppingEvent;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
@@ -27,7 +22,7 @@ public class WorldEventHandler {
 
 	@SubscribeEvent(priority = EventPriority.LOW)
 	public void onWorldLoad(WorldEvent.Load event) {
-        Treasure.logger.debug("[TEBWLP] Loading world event...");
+        Treasure.LOGGER.debug("[TEBWLP] Loading world event...");
         
         if (!getMod().getConfig().isModEnabled()) {
 			return;
