@@ -12,20 +12,20 @@
 			"entries": [{
 					"type": "loot_table",
 					"name": "ebwizardry:subsets/elemental_crystals",
-					"weight": 70
+					"weight": 60
 				},
 				{
 					"entryName": "eb_basic_wand",
 					"type": "item",
 					"name": "ebwizardry:magic_wand",
 					"weight": 20
-                },
-                {
-                    "entryName": "eb_silk",
-                    "type": "item",
-                    "name": "ebwizardry:magic_silk",
-                    "weight":20
-                },
+				},
+				{
+					"entryName": "eb_silk",
+					"type": "item",
+					"name": "ebwizardry:magic_silk",
+					"weight": 20
+				},
 				{
 					"entryName": "eb_workbench",
 					"type": "item",
@@ -67,7 +67,7 @@
 					"functions": [{
 						"function": "ebwizardry:random_spell",
 						"tiers": [
-							"basic"
+							"novice"
 						]
 					}]
 				},

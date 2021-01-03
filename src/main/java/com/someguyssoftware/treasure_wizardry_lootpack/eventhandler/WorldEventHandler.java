@@ -2,7 +2,6 @@ package com.someguyssoftware.treasure_wizardry_lootpack.eventhandler;
 
 import com.someguyssoftware.gottschcore.mod.IMod;
 import com.someguyssoftware.gottschcore.world.WorldInfo;
-import com.someguyssoftware.treasure2.Treasure;
 import com.someguyssoftware.treasure2.loot.TreasureLootTableRegistry;
 
 import net.minecraftforge.event.world.WorldEvent;
@@ -22,7 +21,6 @@ public class WorldEventHandler {
 
 	@SubscribeEvent(priority = EventPriority.LOW)
 	public void onWorldLoad(WorldEvent.Load event) {
-        Treasure.LOGGER.debug("[TEBWLP] Loading world event...");
         
         if (!getMod().getConfig().isModEnabled()) {
 			return;

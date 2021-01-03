@@ -27,7 +27,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = TreasureWizardryLP.MODID, 
 name = TreasureWizardryLP.NAME, 
 version = TreasureWizardryLP.VERSION, 
-dependencies = "required-after:gottschcore@[1.14.0,);required-after:treasure2@[1.14.0,);required-after:ebwizardry@[12.0.3,)", 
+dependencies = "required-after:gottschcore@[1.14.0,);required-after:treasure2@[1.14.0,);required-after:ebwizardry@[4.3.1,)", 
 acceptedMinecraftVersions = "[1.12.2]", 
 updateJSON = TreasureWizardryLP.UPDATE_JSON_URL)
 @Credits(values = { "Treasure2: Wizardry Loot Pack was first developed by Mark Gottschling on Dec 11, 2020."})
