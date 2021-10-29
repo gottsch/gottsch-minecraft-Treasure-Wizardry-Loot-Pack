@@ -35,7 +35,7 @@ public class TreasureWizardryLP extends AbstractMod {
 	// constants
 	public static final String MODID = "treasure2_wizardry_lp";
 	protected static final String NAME = "Treasure2WizardryLP";
-	protected static final String VERSION = "1.0.0";
+	protected static final String VERSION = "1.0.1";
 
 	public static final String UPDATE_JSON_URL = "https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure-Wizardry-Loot-Pack/1.12.2-master/update.json";
 
