@@ -6,6 +6,6 @@
 	},
 	"1.12.2": {
 		"1.0.0": "Initial release.",
-		"1.0.1": "Add mcmod.info file"
+		"1.0.1": "Updated loot tables to properly reference armour_updates.json loot table.\nAdd mcmod.info file"
 	}
 }
