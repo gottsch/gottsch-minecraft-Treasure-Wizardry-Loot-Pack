@@ -86,32 +86,3 @@ jar {
 jar.finalizedBy('reobfJar') 
 // However if you are in a multi-project build, dev time needs unobfed jar files, so you can delay the obfuscation until publishing by doing
 //publish.dependsOn('reobfJar')
-
-
-//an array containing destination paths
-def destinations = ["${dest_folder}", "${dest_server_folder}"]
-println destinations[0]
-
-task deleteOldJar(type: Delete) {
-        delete fileTree("${dest_folder}") {
-            include "**/${mod_name}-*.*"
-
-        }
-        delete fileTree("${dest_server_folder}") {
-            include "**/${mod_name}-*.*"
-        }
-    }
-task copyJar << {
-	// iterate over the array with destination paths
- 	destinations.each { destination ->
-        // for every destination define new CopySpec
-        println destination
-        copy {
-            from jar
-            into destination
-        }
-    }
-}
-
-build.dependsOn copyJar
-copyJar.dependsOn deleteOldJar

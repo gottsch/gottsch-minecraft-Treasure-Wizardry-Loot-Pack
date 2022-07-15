@@ -1,0 +1,34 @@
+{
+	"supportingResources": [
+
+    ],
+    "injectResources": [
+		"inject/common/general",
+		"inject/uncommon/general",
+		"inject/scarce/general",
+		"inject/rare/general",
+		"inject/epic/general"
+    ],
+	"chestResources": [
+
+	],
+	"specialResources": [
+
+	],
+	"chestLootTableFolderLocations": [
+
+	],
+	"specialLootTableFolderLocations": [
+
+	],
+	"supportingLootTableFolderLocations": [
+
+    ],
+    "injectLootTableFolderLocations": [
+		"inject/common",
+		"inject/uncommon",
+		"inject/scarce",
+		"inject/rare",
+		"inject/epic"
+    ]
+} 
