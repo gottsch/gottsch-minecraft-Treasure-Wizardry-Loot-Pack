@@ -8,7 +8,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/Treasure"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/forge-1.12.2-2854"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/GottschCore"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/forge-1.12.2-2859"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/gottsch-minecraft-GottschCore"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
