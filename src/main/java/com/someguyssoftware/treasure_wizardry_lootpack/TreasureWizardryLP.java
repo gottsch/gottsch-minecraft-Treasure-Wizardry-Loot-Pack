@@ -9,6 +9,7 @@ import com.someguyssoftware.gottschcore.config.IConfig;
 import com.someguyssoftware.gottschcore.mod.AbstractMod;
 import com.someguyssoftware.gottschcore.mod.IMod;
 import com.someguyssoftware.gottschcore.version.BuildVersion;
+import com.someguyssoftware.treasure2.api.TreasureApi;
 import com.someguyssoftware.treasure_wizardry_lootpack.config.ModConfig;
 import com.someguyssoftware.treasure_wizardry_lootpack.eventhandler.WorldEventHandler;
 
@@ -68,6 +69,8 @@ public class TreasureWizardryLP extends AbstractMod {
 
 		// register additional events
 		MinecraftForge.EVENT_BUS.register(new WorldEventHandler(getInstance()));
+		// create the treasure registries
+		TreasureApi.registerLootTables(MODID);
 	}
 
 	@EventHandler

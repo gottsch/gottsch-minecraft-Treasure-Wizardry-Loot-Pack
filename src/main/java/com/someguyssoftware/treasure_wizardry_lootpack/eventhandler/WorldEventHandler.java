@@ -2,7 +2,6 @@ package com.someguyssoftware.treasure_wizardry_lootpack.eventhandler;
 
 import com.someguyssoftware.gottschcore.mod.IMod;
 import com.someguyssoftware.gottschcore.world.WorldInfo;
-import com.someguyssoftware.treasure2.loot.TreasureLootTableRegistry;
 
 import net.minecraftforge.event.world.WorldEvent;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
@@ -30,8 +29,7 @@ public class WorldEventHandler {
 		 * On load of dimension 0 (overworld), initialize the loot table's context and other static loot tables
 		 */
 		if (WorldInfo.isServerSide(event.getWorld()) && event.getWorld().provider.getDimension() == 0) {
-			// register mod's loot tables with the LootTableMaster
-			TreasureLootTableRegistry.register(mod.getId());
+			//
 		}	
 	}
 	
